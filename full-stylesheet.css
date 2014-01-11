@@ -1,0 +1,311 @@
+header, 
+footer, 
+article, 
+section, 
+nav, 
+menu, 
+hgroup {
+   display: block;  
+} 
+
+*{
+	margin:0;
+	padding:0;
+	font-weight: normal;
+	font-family: helvetica;
+}
+
+body {
+	margin: 0;
+}
+
+#scrolling-header {
+	position: fixed;
+	width:100%;
+	top: 0;
+	left: 0;
+	zoom: 0;
+	z-index: 1;
+	overflow: hidden;
+}
+
+#nonscrolling-header {
+	position: absolute;
+	width:100%;
+	top: 0;
+	left: 0;
+	zoom: 0;
+	z-index: 1;
+}
+
+#clear-logo{
+	height: 70px;
+	width: 160px;
+	margin:0;
+	display: block;
+	float: left;
+
+}
+
+#clear-logo > a{
+	padding-right: 15px;
+	width: 160px;
+	height: 70px;
+	position: relative;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+#clear-nav {
+	float: right;
+	height: 70px;
+	margin:0;
+}
+
+#clear-nav ul {
+	float: right;
+	margin: 0;
+	padding: 0;
+}
+
+#clear-nav ul li {
+	float: left;
+	display: list-item;
+	list-style: none;
+	padding-right: 15px;
+	padding-left: 15px;
+	text-align: right;
+}
+
+#clear-nav li:first-child{
+	padding-left: 30px;
+}
+#clear-nav li:last-child{
+	padding-right: 30px;
+}
+
+#clear-nav ul li a{
+	height: 70px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	text-decoration: none;
+	color: #ffffff;
+	font-family: helvetica;
+	font-weight: lighter;
+	font-size: 0.5em;
+}
+
+#nav-div {
+	height: 50px;
+	width: 100%;
+	background: rgba(236, 235, 234, 0.9);
+}
+
+.mini-nav {
+	float: center;
+	height: 50px;
+	margin:0;
+}
+
+.mini-nav ul {
+	float: center;
+	margin: 0;
+	padding: 0;
+}
+
+.mini-nav ul li {
+	float: left;
+	display: list-item;
+	list-style: none;
+	padding-right: 15px;
+	padding-left: 15px;
+	text-align: right;
+}
+
+.mini-nav ul li a {
+	height: 50px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	text-decoration: none;
+	font-family: helvetica;
+	font-size: 0.8em;
+}
+
+#filler-bar {
+	clear: both;
+	height: 50px;
+	width: 100%;
+	background-color: rgba(236, 235, 234, 1);
+	margin: 0;
+}
+
+#header-bar { 
+	float: left;
+	clear: both;
+	height: 320px;
+	width: 100%;
+	margin: 0;	
+}
+
+.mini-nav-div { 
+	float: center;
+	clear: both;
+	height: 320px;
+	width: 100%;
+	margin: 0;	
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+#this-head {
+	width: 400px;
+	padding-left: 30px;
+	text-align: left;
+}
+
+#this-head h2 {
+	width: auto;
+	padding-top: 150px;
+	color: white;
+	font-family: helvetica;
+}
+
+#this-head h1 {
+	color: white;
+	width: 400px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: helvetica;
+}
+
+
+#this-head p{
+	color:white;
+	font-size: 1.1em;
+	padding-top: 15px;
+}
+
+#company-content{
+	padding-left: 35px;
+	clear:both;
+}
+
+#company-head {
+	padding-top: 15px;
+	font-family: aldo;
+	font-size: 1.5em;
+	clear:none;
+}
+
+#company-rule {
+	width: 90px;
+	margin-bottom: 15px;
+	border-left: 0;
+	border-right: 0;
+}
+
+#company-text {
+	font-size: 0.8em;
+	color: rgb(128, 128, 128);
+}
+
+#company-text a {
+	font-family: helvetica;
+	color: rgb(128, 128, 128);
+	text-decoration: none;
+}
+
+#company-text a:hover {
+	text-decoration: underline;
+}
+
+#foot-base {
+	width: 100%;
+	height: 500px;
+}
+
+#footer-head {
+	background-color: #171717;
+	height: 100px;
+	text-align: left;
+	padding-left: 4em;
+	padding-top: 4em;
+}
+
+#footer-head h3 {
+	vertical-align: middle;
+	font-family: aldo;
+	font-size: 2em;
+	display: inline-block;
+	color: white;
+	letter-spacing: 5px;
+}
+
+#footer-head h2 {
+	vertical-align: middle;
+	font-family: helvetica;
+	font-size: 2.5em;
+	display: inline-block;
+	color: white;
+	letter-spacing: 5px;
+}
+
+#footer-foot {
+	background-color: #333333;
+	height: 400px;
+	width: 100%;
+	clear: both;
+	float: left;
+	padding-top: 4em;
+}
+
+.footer-block {
+	display: inline-block;
+	margin-left: 4em;
+	float: left;
+	margin-right: 3em;
+}
+
+.fsmall {
+	margin-right: 0;
+	margin-left: 0;
+}
+
+.footer-block h4 {
+	font-family: helvetica;
+	letter-spacing: 3px;
+	padding-bottom: 20px;
+	color: white;
+}
+
+.footer-block p {
+	font-size: 0.7em;
+	color: #d0d0d0;
+	letter-spacing: 4px;
+	padding-bottom: 20px;
+}
+
+.footer-block p br {
+	display: block;
+	margin-top: 8px;
+	content: " ";
+}
+
+.footer-block img {
+	margin-right: 0;
+	padding-right: 0;
+}
+
+.footer-block table tr td {
+	font-size: 8px;
+	padding-right: 9px;
+	font-family: helvetica;
+	color: #d0d0d0;
+	letter-spacing: 4px;
+	padding-bottom: 20px;
+}
