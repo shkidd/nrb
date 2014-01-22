@@ -1,0 +1,135 @@
+header, 
+footer, 
+article, 
+section, 
+nav, 
+menu, 
+hgroup {
+   display: block;  
+} 
+
+*{
+	margin:0;
+	padding:0;
+	font-weight: normal;
+	font-family: helvetica;
+}
+
+.mini-nav-black ul li a {
+	color: black;
+}
+
+.mini-nav-black ul li a:hover {
+	color: black;
+}
+
+.mini-nav-black ul li:first-child{
+	padding-left: 30%;
+}
+
+#header-bar { 
+	background-color: black;
+}
+
+.mini-nav-div-black { 
+	background-image: url("assets/03_banner1.png");
+	height: 400px;
+}
+
+.mini-nav-div-black h2 {
+	position: relative;
+	top:300px;
+	left: 20px;
+	font-family: aldo;
+	color: white;
+}
+
+.pf-tier {
+}
+
+.darkblue-a {
+	background-color: #11aaff;
+}
+
+.darkblue-b {
+	background-color: #1188ff;
+}
+
+.darkteal-a {
+	background-color: #1188bb;
+}
+
+.darkteal-b {
+	background-color: #1166aa;
+}
+
+.lightblue-a {
+	background-color: #11ffcc;
+}
+
+.lightblue-b {
+	background-color: #11ddcc;
+}
+
+.purple-a {
+	background-color: #8822ee;
+}
+
+.purple-b {
+	background-color: #7711dd;
+}
+
+.gray-a {
+	background-color: #333333;
+}
+
+.gray-b {
+	background-color: #222222;
+}
+
+.pf-table {
+	border-spacing: 0;
+
+}
+
+.pf-table tr {
+	border: thin;
+}
+
+.pf-table td h2 {
+	font-family: aldo;
+}
+
+.c1 {
+	width: 15%;
+	text-align: right;
+	color: white;
+	padding-right: 45px;
+	padding-top: 3%;
+	vertical-align: top;
+}
+
+.c2 {
+	width: 18%;
+	padding: 10px;
+	text-align: center;
+	color: white;
+	padding-top: 3%;
+	vertical-align: top;
+}
+
+.c3 button {
+	border-style: none;
+	font-size: 1em;
+	width: 32%;
+	height: 80px;
+	background-color: transparent;
+}
+
+.c3 figure {
+	text-align: center;
+	width: 175px;
+	height: 175px;
+	margin: 25px;
+	display: inline-block;
+}
