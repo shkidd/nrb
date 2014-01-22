@@ -11,56 +11,69 @@ hgroup {
 *{
 	margin:0;
 	padding:0;
-	font-weight: normal;
+	font-weight: lighter;
 	font-family: helvetica;
 }
 
 body {
+	min-width: 1024px;
 }
 
 body p {
-	margin: 50px 0px;
+	margin: 0px 0px;
 }
 
 
 .footer-block p {
-	margin: 0;
+	margin: 0px;
 }
 
 
 .mini-nav-teal ul li a {
-	color: #00aa77;
+	color: #68c39f;
 }
 
 .mini-nav-teal ul li a:hover {
-	color: #00aa77;
+	color: #68c39f;
 }
 
 .mini-nav-teal ul li:first-child{
-	padding-left: 30%;
+	padding-left: 34%;
 }
 
 #header-bar { 
-	background-color: #00aa77;
+	background-color: #68c39f;
 }
 
 .mini-nav-div-teal { 
-	background-image: url("assets/03_banner1.png");
-	height: 400px;
+	background-image: url("../assets/02about/02_banner1.png");
+	background-position: 1px;
+	min-height: 576px;
+	min-width: 1020px;
 }
 
 .text-block {
 	text-align: center;
-	margin: 4em;
+	margin: 7em;	
 }
 
 
 .text-block h3 {
-	color: #8f8f8f;
+	font-weight: bold;
+	font-size: 10pt;
+	color: #000000; 
+	margin-bottom: 10px;
+
 }
 
 .text-block div p {
-	color: #9f9f9f;
+	color: #595959;
+	font-size: 11pt;
+	font-weight: lighter;
+	line-height: 40px;
+	width:700px;
+	margin-left: auto ;
+  	margin-right: auto ;
 }
 
 .text-block img {
@@ -69,8 +82,12 @@ body p {
 	height: 225px;
 }
 
-ul {
+.centered-bullet ul {
 	list-style-position: inside;
+	color: #595959;
+	font-size: 11pt;
+	font-weight: lighter;
+	line-height: 40px;
 }
 
 .button-div button {
@@ -81,6 +98,12 @@ ul {
 	border-color: #afafaf;
 	border-width: thin;
 	border-style: solid;
+}
+
+hr {
+	display: block; height: 1px;
+    border: 0; border-top: 1px solid #68c39f;
+    margin: 1em 0; padding: 0;
 }
 
 .imgdiv hr {
