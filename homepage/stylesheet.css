@@ -18,8 +18,9 @@ body {
 }
 
 #scrolling-header {
-	position: fixed;
-	width:100%;
+	position: absolute;
+	width: 845px;
+	height: 72px;
 	top: 0;
 	left: 0;
 	zoom: 1;
@@ -50,29 +51,30 @@ body {
 }
 
 #site-nav {
-	float: left;
 	height: 72px;
 	background-color: #363636;
 	margin:0;
+	overflow: hidden;
 }
 
 #site-nav ul {
-	float: left;
 	margin: 0;
 	padding: 0;
+	height: 72px;
+	min-width: 850px;
 	padding-left:10px;
 	padding-right:10px;
 	background-color: #363636;
+	text-align: left;
 }
 
 
 
 #site-nav ul li {
-	float: left;
-	display: list-item;
+	display: inline-block;
 	list-style: none;
-	padding-right: 25px;
-	padding-left: 25px;
+	padding-right: 1%;
+	padding-left: 1%;
 	text-align: center;
 	background-color: #363636;
 }
@@ -110,7 +112,8 @@ body {
 #page-header{
 	height: 0;
 	width: 100%;
-	padding-bottom: 58%;
+	min-width: 850px;
+	min-height: 500px;
 	background-image: url("assets/banner.png");
 	background-position: center top;
 	background-repeat: no-repeat;
@@ -137,9 +140,9 @@ body {
 #scroll-note{
 	color:white;
 	font-size: 15px;
-	padding-top: 15px;
+	padding-top: 75px;
 	font-weight:normal;
-	position: fixed;
+	position: relative;
 	font-size:9px;
 	letter-spacing:1px;
 	bottom: 1.4em;
@@ -167,16 +170,16 @@ body {
 }
 
 #section1{
-	width: 88%;
-	height: 550px;
-	padding-left: 12%;
-	margin-top: 20px;
+	/*width: 88%;*/
+	min-width: 850px;
+	min-height: 500px;
 }
 
 
 
 #left{
-	margin-top: 8%;
+	padding-top: 8%;
+	padding-left: 12%;
 	display: inline-block;
 	width: 40%;
 	padding-right: 8%;
@@ -185,11 +188,16 @@ body {
 
 #right{
 	margin-top:2%;
-	width: 60%;
+	width: 40%;
+	/*min-width: 400px;*/
 	display: inline-block;
 	position: absolute;
-	float:right;
-	width: 300px;
+	/*float:right;*/
+}
+
+#right img {
+	width: 100%;
+	height: 100%;
 }
 
 
@@ -231,7 +239,7 @@ body {
 
 #section2{
 	clear:both;
-	width: 100%;
+	min-width: 850px;
 	background-image: url("assets/bg01.png");
 	background-position: center top;
 	background-repeat: no-repeat;
@@ -241,55 +249,44 @@ body {
 }
 
 #wrapper{
-	padding-top: 5%;
-	width: 45%;
-	height:0;
-	padding-bottom: 45%;
-	padding-left: 5%;
+	padding-top: 40px;
+	padding-bottom: 65px;
+	padding-left: 40px;
 }
 
 #circle{
 	margin: 0;
+	width: 310px;
+	height: 360px;
 	border-radius: 50%;
 	background-color: #185474;
 	opacity: 0.7; 
-	width: 95%;
-	padding-bottom: 95%;
-	float:left;
+	padding-left: 70px;
+	padding-right: 20px;
+	padding-top: 40px;
 }
 /*99cloudhookah*/
 #wrapper h1 {
-	position: absolute;
 	font-family: 'Aldo';
 	color: white;
-	margin-bottom: 0px;
+	margin-top: 30px;
 	font-size: 3em;
 	font-weight: bold;
 	text-transform: uppercase;
-	margin-top: 13%;
-	margin-left: 2em;
+}
+
+#wrapper button {
+	padding: 5px 10px;
 }
 
 #wrapper p {
 	font-family: Helvetica;
-	position: absolute;
-	margin-top: 22%;
-	margin-bottom: 10px;
-	margin-left: 7.2em;
 	color: white;
 	font-weight: 100;
 	font-size: 13px;
 	line-height: 2.3em;
 	letter-spacing: 0.05em;
-	word-spacing: .25em;
-}
-
-#button2 {
-	display: block;
-	position: absolute;
-	margin-top: 27%;
-	margin-left: 5.8em;
-	font-size: 1em;
+	word-spacing: .1em;
 }
 
 #section3{
@@ -318,7 +315,7 @@ body {
 	color: #474747;
 	line-height: 2.0em;
 	letter-spacing: 0.05em;
-	word-spacing: .25em;
+	word-spacing: .1em;
 	margin-bottom: 1.5em;
 }
 
@@ -363,8 +360,10 @@ body {
 }
 
 #section4 {
-	clear:both;
+	clear: both;
 	width: 100%;
+	min-width: 850px;
+	min-height: 450px;
 	background-image: url("assets/bg02.png");
 	background-position: center top;
 	background-repeat: no-repeat;
@@ -375,24 +374,21 @@ body {
 
 #section4 #wrapper{
 	width: 55%;
-	height: 0;
 	padding-top: 5%;
-	padding-left: 3%
+	padding-bottom: 5%;
+	padding-left: 3%;
 }
 
 
 #section4 h1{
-	margin-top: 1em;
 }
 
 #section4 p{
-	width:39%;
-	margin-top: 8em
+	width:80%;
 }
 
 #section4 .button{
 	display: block;
-	position: absolute;
 	margin-top: 17em;
 	margin-left: 40%;
 	font-size: 1em;	
@@ -402,6 +398,7 @@ body {
 	background-color: #185474;
 	opacity: 0.5; 
 	width: 100%;
-	padding-bottom: 50%;
+	padding-bottom: 20px;
+	padding-left: 50px;
 	float:left;
 }
