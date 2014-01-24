@@ -18,7 +18,7 @@ body {
 }
 
 #scrolling-header {
-	position: absolute;
+	position: fixed;
 	width: 845px;
 	height: 72px;
 	top: 0;
@@ -113,9 +113,10 @@ body {
 	height: 0;
 	width: 100%;
 	min-width: 850px;
-	min-height: 500px;
-	background-image: url("assets/banner.png");
-	background-position: center top;
+	min-height: 660px;
+	position: relative;
+	background-image: url("../assets/01homepage/01_banner1.png");
+	background-position: center;
 	background-repeat: no-repeat;
 	background-size: 100% auto;
 	text-align: center;
@@ -140,11 +141,10 @@ body {
 #scroll-note{
 	color:white;
 	font-size: 15px;
-	padding-top: 75px;
 	font-weight:normal;
-	position: relative;
 	font-size:9px;
 	letter-spacing:1px;
+	position:absolute;
 	bottom: 1.4em;
 	width: 100%;
 	text-align: center;
@@ -170,26 +170,24 @@ body {
 }
 
 #section1{
-	/*width: 88%;*/
 	min-width: 850px;
-	min-height: 500px;
+	min-height: 600px;
 }
 
 
 
 #left{
-	padding-top: 8%;
+	padding-top: 10%;
 	padding-left: 12%;
 	display: inline-block;
 	width: 40%;
 	padding-right: 8%;
-
 }
 
 #right{
 	margin-top:2%;
 	width: 40%;
-	/*min-width: 400px;*/
+	min-width: 400px;
 	display: inline-block;
 	position: absolute;
 	/*float:right;*/
@@ -240,7 +238,7 @@ body {
 #section2{
 	clear:both;
 	min-width: 850px;
-	background-image: url("assets/bg01.png");
+	background-image: url("../assets/01homepage/01_bg01.png");
 	background-position: center top;
 	background-repeat: no-repeat;
 	background-size: 100% auto;
@@ -364,7 +362,7 @@ body {
 	width: 100%;
 	min-width: 850px;
 	min-height: 450px;
-	background-image: url("assets/bg02.png");
+	background-image: url("../assets/01homepage/01_bg02.png");
 	background-position: center top;
 	background-repeat: no-repeat;
 	background-size: 100% auto;
