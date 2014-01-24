@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>NRB</title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" href="../full-stylesheet.css" /> 
+	<link rel="stylesheet" href="careers.css" /> 
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script type='text/javascript'>
+		function toggle_expand(id) {
+			var cstate = document.getElementById(id);
+			if (cstate.style.display != "block") {
+				cstate.style.display="block";
+			} else {
+				cstate.style.display="none";
+			}
+		}
+	</script>
+	<!--[if IE]>  
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>  
+	<![endif]-->
+</head>
+
+<body>
+	<header id="nonscrolling-header">
+		<p id="clear-logo"><a href="index.html"> <img src="assets/logo.gif" height="39"/></a></p>
+		<nav id="clear-nav" >
+			<ul>
+				<li><a href="../index.html">HOME</a></li>
+				<li><a href="../about/index.html">ABOUT US</a></li>
+				<li><a href="../engineering/index.html">ENGINEERING & DESIGN</a></li>
+				<li><a href="../productfinder/index.html">PRODUCT FINDER</a></li>
+				<li><a href="../investors/index.html">INVESTOR RELATIONS</a></li>
+				<li><a href="./index.html">CAREERS</a></li>
+			</ul>
+		</nav>
+	
+	</header>
+	
+	<div id="header-bar" width="100%">
+		<div id="this-head">
+			<h2>THIS IS </h2> 
+			<h1>A DAY AT NRB</h1>
+		</div>
+	</div>
+
+
+	<div class="mini-nav-div mini-nav-div-blue">
+		<div id="nav-div">
+		<nav class="mini-nav mini-nav-blue" >
+			<ul>
+				<li ><a href="index.html" >A DAY AT NRB</a></li>
+				<li><a href="index.html">APPLY NOW</a></li>
+			</ul>
+		</nav>
+		</div>
+		<div class="right-floating">
+			<h1>Passionate People</h1>
+			<p>We make some of the most precise products in the world. 
+				We come from every part of India, and all over the globe. Our workplace is dynamic.
+				We face new challenges every day. We do business in more than 25 countries
+				around the world.
+			</p>
+			<p>We work as a team.</p>
+			<button>Join Our Family, Join NRB</button>
+		</div>
+	</div>
+	<!-- HERE IS THE TOP OF THE BODY -->
+	<div class="centered-content">
+		<img src="assets/06_wait_icon.png" />
+		<p>TELL US A LITTLE ABOUT YOURSELF FIRST</p>
+	</div>
+	<!-- This is an individual box, the intern box -->
+	<div class="app-type-div">
+		<div class="hover hov1" onclick="toggle_expand('c_int')">
+		</div>
+		<h3>A DIFFERENT KIND OF SUMMER EXPERIENCE</h3>
+		<p> 
+			At NRB we look for interns who are curious, driven, and looking for new experiences. Our offices are dynamic, and our work is multidisciplinary.
+			Our interns take ownership over their projects, and interact
+			with people in all levels of our organizations. They contribute 
+			real value, and leave with meaningful and applicable learning experiences.
+		</p>
+	</div>
+	<!-- This is an individual box, the new grad box -->
+	<div class="app-type-div">
+		<div class="hover hov2" onclick="toggle_expand('c_grad')">
+		</div>
+		<h3>START YOUR CAREER AT ONE OF INDIA'S FOREMOST MANUFACTURING COMPANIES</h3>
+		<p> 
+			Our yearlong trainee programs provide a dynamic environment for new graduates to begin their careers in management or engineering. They are meant to help graduates find their fit in the company, and to serve as a springboard for them to launch their professional careers.
+		</p>
+	</div>
+	<!-- This is an individual box, the professional box -->
+	<div class="app-type-div">
+		<div class="hover hov3" onclick="toggle_expand('c_pro')">
+		</div>
+		<h3>
+			Join our team at India’s premier bearing manufacturer
+		</h3>
+		<p> 
+			At NRB, we are always looking for qualified professionals to join our team. Many of our people have joined us midway through their careers, and we encourage you to get in touch with us.
+		</p>
+	</div>
+
+	<div class="container">
+		<img class="arrow-img" src="assets/06_white_3polygon.png" ></img>
+		<div class="collapsable" id="c_grad">
+			<!--HERE IS WHERE YOU PUT THE WHOLE GRADS DIV -->
+			<div background-color="blue"> <h1>GRADS!!!!</h1></div>
+		</div>
+		<div class="collapsable" id="c_pro">
+			<!--HERE IS WHERE YOU PUT THE WHOLE PROS DIV -->
+			<div background-color="blue"> <h1>PROFESSIONALS!!!</h1></div>
+		</div>
+		<div class="collapsable" id="c_int">
+			<!-- START OF STUDENT DIV -->
+			<div class="col-img">
+			</div>
+			<div class="info-block">
+				<h2>Interning At NRB</h2>
+				<p>We structure our internship experiences around three values: </p>
+				<div class="panel-box" >
+					<div class="panel"> 
+						<h1>01</h1>
+						<h3>MENTORSHIP</h3>
+						<p>We believe the most important assets we have to offer our interns are our great mentors. As an intern, you will be guided by a designated mentor who will oversee your projects, help you when you get stuck, and remain connected with you for the rest of your career. At NRB you will gain a lifelong mentor.
+					</div><div class="panel gray-panel"> 
+						<h1>02</h1>
+						<h3>RESPONSIBILITY</h3>
+						<p>We believe the most important assets we have to offer our interns are our great mentors. As an intern, you will be guided by a designated mentor who will oversee your projects, help you when you get stuck, and remain connected with you for the rest of your career. At NRB you will gain a lifelong mentor.
+						</p>
+					</div><div class="panel"> 
+						<h1>03</h1>
+						<h3>EXPLORATION</h3>
+						<p>We believe the most important assets we have to offer our interns are our great mentors. As an intern, you will be guided by a designated mentor who will oversee your projects, help you when you get stuck, and remain connected with you for the rest of your career. At NRB you will gain a lifelong mentor.
+						</p>
+					</div>
+				</div>	
+			</div> 
+			<div class="program-block">
+				<h1>The Internship Programs</h1>
+				<div class="program-type">
+					<img src="assets/06_briefcase_icon.png" />
+					<h3>Management</h3>
+					<p>SUMIT MITRA VP OF SUPPLY CHAIN STRATEGY</p>
+				</div>
+				<div class="program-type">
+					<img src="assets/06_wrench_icon.png" />
+					<h3>Engineering Operations</h3>
+					<p>HEMANT JOG. VP OF MANUFACTURING</p>
+				</div>
+				<div class="program-type">
+					<img src="assets/06_computer_icon.png" />
+					<h3>Engineering Design</h3>
+					<p>PRAKASH BANAIT</p>
+				</div>
+			</div>
+			<div class="app-block">
+				<div class="app-left">
+					<h1>The Application Process</h1>
+					<p>
+						Interns are selected in a two-round application process. Internships are project-based, with each intern assigned a project lasting 4 - 6 weeks between the dats of April 1st and July 1st. All internships are paid, with interns entitled to basic stipend, expenses, and discretionary performance bonus. Management interns are eligible for offers of prolonging their internship throughout the following academic year at reduced hours.
+					</p>
+				</div>
+				<div class="app-right">
+					<div class="bullet-div">
+						<img src="assets/06_bluebox1_icon.png"> </img>
+						<div><p>Submit required documents (mark sheets and CV) by March 1st.</p></div>
+					</div>
+					<div class="bullet-div bdiv2">
+						<img src="assets/06_bluebox2_icon.png"> </img>
+						<div><p>Shortlisted candidates are invited to interview with mentors by March 15th. Decisions released shortly thereafter.</p></div>
+					</div>
+				</div>
+			</div>
+			<!--END OF STUDENT DIV -->
+		</div>
+		<div class="join-bar">
+				<h1>JOIN OUR TEAM</h1>
+				<button>Apply Now</button>
+		</div>
+	</div>
+
+
+
+<!-- START FOOTER -->
+	<footer id="foot-base">
+		<div id="footer-head">
+			<h3>case studies: &nbsp;</h3> 
+			<h2><b>CAGELESS BEARING</b></h2>
+		</div>
+		<div id="footer-foot">
+			<article class="footer-block">
+				<h4> Say Hello, Contact Us </h4>
+				<p>
+					Dhannur, 15 sir P.M Road <br />
+					Fort, Mumbai 4000001 <br />
+				</p>
+				<p>
+					Tel: (91-22) 2266 4160, 2255 4998 </br>
+					Fax: (91-22) 2266 0412, 2267 9850 </br>
+				</p>
+				<p>
+					Marketing: marketing@nrbbearings.co.in </br>
+					Finance: finance@nrbbearings.co.in
+				</p>
+			</article>
+			<article class="footer-block fsmall">
+				<h4>Certifications</h4>
+				<table border="0">
+					<tr>
+						<td>ISO 9001:2000</td>
+						<td>OHSAS 18001:2007</td>
+					</tr>
+					<tr>
+						<td>ISO/TS 16949:2002</td>
+						<td>REACH COMPLIANT</td>
+					</tr>
+					<tr>
+						<td>ISO 14001:2004</td>
+						<td>ELV COMPLIANT</td>
+					</tr>
+				</table>
+				</br>
+				</br>
+				<h4>Recent Clients</h4>
+				<img src="assets/logos.png" width="80%" height="80%"/>
+			</article>
+		</div>
+	</footer>
+
+</body>
+</html>
