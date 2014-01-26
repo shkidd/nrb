@@ -1,0 +1,56 @@
+To Do:
+
+General
+- add functionality to mini-nav so it skips to the right place
+- make sure mini navi is aligned correctly
+- clicking case study at the footer should take oyu to the case study page.
+
+
+Master Style Sheet
+- determine left margin so all text is at least left aligned (try to make this left margin = right margin)
+- align footer text
+	- case studies should link to case studies section
+	- case studies should be centered with left and right margin (can we make it take up the max space possible given a left and right margin by adjusting letter spacing?)
+
+Homepage
+1) Scrolling-header
+	- When window is half size, the scrolling-header makes it so there is a weird white space on the right
+2) Scroll-Note
+	- V is not centered
+3) Section2
+	- Align text
+4) Section 4
+	- Align Text
+- fix all in section buttons so they link to the right place
+
+
+About Us
+- CEO rollovers
+- CEO names/position label
+- CEO pictures should be bigger/less space in between them
+- CSR functionality
+- Add Arrow Graphic for certain </hr>s
+
+Engineering and Design 
+- caes study buttons should hop to the correct case study
+
+Product Finder
+- Weird right scroll thing going on
+- fix colors
+
+Investor Relations
+- Add the same generalized css for the header from the full-stylesheet
+- add hexagon and Investor relations at top
+- Set up RSS feed for investor news
+- Set up Stock Ticker
+
+Careers
+- Can we make the images load before choosing a given group?
+- The scrolling function is really buggy if you click on multiple groups: 
+	- can we set up some sort of boolean that asks if a gorup has been chosen?  
+	- if a group is chosen, and the user clicks on another group, the first group should be closed, and the group most recently selected should open.
+	- the group should not close if you double click it
+
+
+Things to comment for them to set up
+- 
