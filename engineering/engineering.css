@@ -16,6 +16,7 @@ hgroup {
 }
 
 body {
+	min-width: 1024px;
 }
 
 .mini-nav-orange ul li a {
@@ -34,30 +35,30 @@ body {
 	background-color: #eb6e1e;
 }
 
-.mini-nav-div-orange { 
-	background-image: url("assets/03_banner1.png");
-	height: 400px;
+.mini-nav-div-orange-engineer { 
+	background-image: url("../assets/03engineering/03_banner1.png");
+	height: 648px;
 }
+
+.mini-nav-div-orange-design { 
+	background-image: url("../assets/03engineering/03_banner2.png");
+	height: 648px;
+}
+
+.mini-nav-div-orange-expertise { 
+	background-image: url("../assets/03engineering/03_banner3.png");
+	height: 648px;
+}
+
 
 .text-block {
-	text-align: center;
-	padding: 2em;
+	width: 72%;
+	padding-left: 14%;
+	padding-top: 50px;
+	padding-bottom: 100px;
+	margin-top: 20px;
 }
 
-.text-block img {
-	display: inline-block;
-}
-
-.graph-div {
-	display: inline-block;
-	height: 250px;
-	width: 200px;
-	float: right;
-	background-image: url("assets/03_eandd_flowchart.png");
-	background-position: center top;
-	background-repeat: no-repeat;
-	background-size: 100% auto;
-}
 
 .text-block hr {
 	color: #eb6e1e;
@@ -68,37 +69,56 @@ body {
 }
 
 .text-block h1 {
-	color: #dfdfdf;
+	width: 800px;
+	font-weight: 100;
+	letter-spacing: 1px;
+	text-align:center;
+	margin-left: auto;
+  	margin-right: auto;
+  	margin-bottom: 50px;
+	color: #b3b3b3;
 }
 
 .text-block div p {
 	color: #9f9f9f;
+	font-weight: 100;
+	color: 636363;
+	letter-spacing: 1px;
+	line-height: 35px;
 }
 
+#graph-div {
+	float: right;
+	display: inline-block;
+	position: absolute;
+	height: 550px;
+	width: 20%;
+}
+
+
 .shrink-bg {
+	text-align:center;
 	margin-bottom: 36px;
 }
 
 .shrink-bg div img {
-	margin-top: 364px;
-	margin-left: 28%;
+	margin-top: 610px;
+	width: 410px;
+	margin-left: auto;
+  	margin-right: auto;
 }
 
 .s2 div img{
-	margin-top: 314px;
+	margin-top: 570px;
 }
 
 .left-p {
-	width: 40%;
-	padding-right: 0;
-	margin-right: 0;
-	margin: 0;
-	text-align: left;
+	display: inline-block;
+	width: 53%;
+	padding-right: 6%;
 }
 
-.left-p	p {
-	display: inline;
-}
+
 
 .case-studies-div {
 	background-color: #eb6e1e;

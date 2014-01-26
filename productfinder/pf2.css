@@ -15,6 +15,10 @@ hgroup {
 	font-family: helvetica;
 }
 
+body {
+	min-width: 1024px;
+}
+
 .mini-nav-black ul li a {
 	color: black;
 }
@@ -32,13 +36,13 @@ hgroup {
 }
 
 .mini-nav-div-black { 
-	background-image: url("assets/03_banner1.png");
-	height: 400px;
+	background-image: url("../assets/04productfinder/04_banner1.png");
+	height: 480px;
 }
 
 .mini-nav-div-black h2 {
 	position: relative;
-	top:300px;
+	top:390px;
 	left: 20px;
 	font-family: aldo;
 	color: white;
